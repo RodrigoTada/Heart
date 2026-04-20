@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coração Animado</title>
+    <title>Graziela ❤️</title>
     <style>
         html, body { height: 100%; padding: 0; margin: 0; background: #000; overflow: hidden; }
         canvas { position: absolute; width: 100%; height: 100%; }
+        #nome {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-family: 'Georgia', serif;
+            font-size: 60px;
+            font-weight: bold;
+            text-shadow: 0 0 10px #0212eb, 0 0 20px #0212eb;
+            z-index: 10;
+        }
     </style>
 </head>
 <body>
+    <div id="nome">Graziela</div>
     <canvas id="pinkboard"></canvas>
     <script>
         var settings = {
